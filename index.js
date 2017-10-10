@@ -1,4 +1,4 @@
 const resultados = require('./resultados');
 
-// Exibir pelo console (terminal) uma lista dos times que participaram do campeonato, sem repetir nomes.
+// Exibir pelo console (terminal) a tabela de classificação do campeonato, com pontos, vitórias, empates e derrotas, conforme imagem anexa abaixo.
 console.log(resultados);
