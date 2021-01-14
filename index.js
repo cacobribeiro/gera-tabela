@@ -54,7 +54,7 @@ const totalPoints = (victorys, draw) => {
 };
 
 const printConsole = (arrObj) => {
-  const newArr = arrObj.sort((a, b) => b.points - a.points);
+  const newArr = arrObj.sort((a, b) => b.team - a.team).sort((a, b) => b.points - a.points);
   console.table(newArr);
 };
 
